@@ -29,3 +29,28 @@ if (num1>num2){
 }else{
     console.log('number 2 is bigger');
 }
+
+//ternary operator
+let age = 25;
+let isElligible = age>18 ? true:false;
+console.log(isElligible);  //true
+
+//switch operator
+let month = 2;
+let dayConut;
+switch (month) {
+    case 1: case 3: case 5: case 7: case 8: case 10: case 12:
+        dayConut=31;
+        break;
+    case 4: case 6: case 9: case 11: 
+        dayConut=31;
+        break;
+    case 2:
+        dayConut=28
+        break;
+    
+    default:
+        dayConut=-1;
+        break;
+}
+console.log(dayConut);
