@@ -20,3 +20,12 @@ console.log(one_string===two_string); //false
 
 //logical operators are same like JAVA: You have only short circuit && , ||
 console.log((5<2)&&(2<5));
+
+//control flow statement if/if else/ switch/ break/continue same with JAVA
+let num1=100;
+let num2=10;
+if (num1>num2){
+    console.log("number one is bigger");
+}else{
+    console.log('number 2 is bigger');
+}
