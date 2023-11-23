@@ -17,3 +17,34 @@ console.log(numbers);
 console.log(emptyArray);
 console.log(myNumbers);
 console.log(colors);
+
+// print second element in an Array
+console.log(colors[1]); //index based
+
+//add element to an array
+colors.push("blue"); //adding element to the end of array
+console.log(colors);
+
+//add element to the beginnig of the array
+colors.unshift("white");
+console.log(colors);
+
+console.log(colors.pop()); //giving the last element and removing at the same time
+console.log(colors);
+
+//the size of the array
+console.log(colors.length);
+for (let i = 0; i < colors.length; i++) {
+    console.log(colors[i]);
+    
+}
+
+//loop with values of array
+
+for (let value of colors) {
+    console.log(value);
+}
+
+colors.forEach(element => {
+    console.log(element);
+});
